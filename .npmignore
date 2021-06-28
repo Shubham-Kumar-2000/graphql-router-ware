@@ -1,0 +1,6 @@
+node_modules
+.vscode
+src
+backup
+.eslint*
+rollup.config.js
