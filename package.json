@@ -25,6 +25,7 @@
     "graphql",
     "express",
     "router",
+    "middleware",
     "apollo",
     "server"
   ],
