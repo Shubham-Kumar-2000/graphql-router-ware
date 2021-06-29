@@ -5,6 +5,7 @@
 
 - Easy to use.
 - Actively maintained.
+- Zero dependency.
 - Handles router-level middleware in graphql just like in expressJs.
 
 ## Install
