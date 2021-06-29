@@ -39,7 +39,7 @@ import Controller from '../controllers/page';
 const resolvers = {
     Query: {
         singlePage: Router(Controller.singlePage)
-    }
+    },
     Mutation: {
         createPage: Router(checkPermission,Controller.create),
         updatePage: Router(checkPermission,Controller.update),
