@@ -41,7 +41,7 @@ function validator(nodes) {
  * Graphql resolver to route through all the middlewares
  * @param {RouterNode[]} nodes - The router functions
  */
-export default function Router(...nodes) {
+function Router(...nodes) {
     validator(nodes);
     /**
      * GraphQL resolver
@@ -64,3 +64,5 @@ export default function Router(...nodes) {
         return next();
     };
 }
+
+module.exports = Router;
